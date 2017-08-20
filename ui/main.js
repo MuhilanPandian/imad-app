@@ -17,7 +17,7 @@ img.onclick = function () {
 };
 
 // Counter code
-var button = document.getElementById("Counter");
+var button = document.getElementById("counter");
 button.onclick = function () {
 var counter = 0;    
         // Make a request to the counter endpoint
@@ -28,5 +28,4 @@ var counter = 0;
         counter = counter + 1;
         var span = document.getElementById('count');
         span.innerHTML = counter.toString();
-    
 };
