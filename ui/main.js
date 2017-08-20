@@ -53,7 +53,7 @@ submit.onclick = function () {
         };
         
         // Make the request
-        request.open('GET','http://muhilanpandian97.imad.hasura-app.io/sbmit-name?name=' + name,true);
+        request.open('GET','http://muhilanpandian97.imad.hasura-app.io/submit-name?name=' + name,true);
         request.send(null);
     
 };
